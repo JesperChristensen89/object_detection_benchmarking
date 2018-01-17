@@ -15,7 +15,7 @@ The models and their score on the COCO evaluation set:
 # Platforms
 The models are deployed directly from the available notebooks. 
 
-Multiprocessing and threading are intelligently used limit the bottleneck from decoding and processing. 
+Multiprocessing and threading are utilized to limit the bottleneck from decoding and processing. 
 
 The tested platforms include:
 * MacBook Pro 2015 2.7 GHz Intel Core i5 CPU
