@@ -24,7 +24,7 @@ The tested platforms include:
 * NVIDIA Jetson TX2
 
 # Results
-The results are shown in the end of each notebook. 
+The results are shown in the end of each notebook. - will get back and make a summary here later.
 
 Furthermore the original video processed by SSD MobileNet and Faster R-CNN Inception ResNet is available as a performance comparison on youtube: https://www.youtube.com/watch?v=EY5XbRQylIg
 
