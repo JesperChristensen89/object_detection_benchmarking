@@ -1,9 +1,11 @@
 # object_detection_benchmarking
-Benchmarking deep learning models for real-time object detection on various platforms
+Benchmarking deep learning models for real-time object detection on various platforms.
+
 To clone this repo one may need to use Git LFS for the large files (models, data).
 
 # Models
 The tested models are all trained on MS COCO and evaluated on a personal recorded video.
+
 The models and their score on the COCO evaluation set:
 * SSD MobileNet V1 - 21 mAP
 * SSD Inception V2 - 24 mAP
@@ -12,7 +14,9 @@ The models and their score on the COCO evaluation set:
 
 # Platforms
 The models are deployed directly from the available notebooks. 
+
 Multiprocessing and threading are intelligently used limit the bottleneck from decoding and processing. 
+
 The tested platforms include:
 * MacBook Pro 2015 2.7 GHz Intel Core i5 CPU
 * NVIDIA GTX1060 6 GB GPU
@@ -21,6 +25,7 @@ The tested platforms include:
 
 # Results
 The results are shown in the end of each notebook. 
+
 Furthermore the original video processed by SSD MobileNet and Faster R-CNN Inception ResNet is available as a performance comparison on youtube: https://www.youtube.com/watch?v=EY5XbRQylIg
 
 # Disclaimer
