@@ -24,5 +24,5 @@ The results are shown in the end of each notebook.
 Furthermore the original video processed by SSD MobileNet and Faster R-CNN Inception ResNet is available as a performance comparison on youtube: https://www.youtube.com/watch?v=EY5XbRQylIg
 
 # Disclaimer
-None of the models are further optimized towards runtime inference. With a lot of work, the models for e.g. Jetson TX2 could be configured to run with TensorRT which would be able to boost performance with at least a number of times.
+None of the models are further optimized towards runtime inference. With a lot of work, the models for e.g. Jetson TX2 could be configured to run with TensorRT. This would effectively boost performance with at least a number of times - if not 10x.
 
