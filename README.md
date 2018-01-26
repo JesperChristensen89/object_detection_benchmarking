@@ -17,7 +17,7 @@ The models and their score on the COCO evaluation set:
 # Platforms
 The models are deployed directly from the available notebooks. 
 
-Threading are utilized to limit the bottleneck from decoding and processing. 
+Threading is utilized to limit the bottleneck from decoding and processing the video frames. 
 
 The tested platforms include:
 * MacBook Pro 2015 2.7 GHz Intel Core i5 CPU
