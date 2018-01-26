@@ -1,5 +1,6 @@
 # object_detection_benchmarking
 Benchmarking deep learning models for real-time object detection on various platforms.
+
 Test data is recorded with a GoPro in 1080p 30 FPS and is 31s long.
 
 To clone this repo one may need to use Git LFS for the large files (models, data).
