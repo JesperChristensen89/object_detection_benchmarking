@@ -1,10 +1,11 @@
 # object_detection_benchmarking
 Benchmarking deep learning models for real-time object detection on various platforms.
+Test data is recorded with a GoPro in 1080p 30 FPS and is 31s long.
 
 To clone this repo one may need to use Git LFS for the large files (models, data).
 
 # Models
-The tested models are all trained on MS COCO and evaluated on a personal recorded video.
+The tested models are all trained on MS COCO and evaluated on the personal recorded video.
 
 The models and their score on the COCO evaluation set:
 * SSD MobileNet V1 - 21 mAP
@@ -15,7 +16,7 @@ The models and their score on the COCO evaluation set:
 # Platforms
 The models are deployed directly from the available notebooks. 
 
-Multiprocessing and threading are utilized to limit the bottleneck from decoding and processing. 
+Threading are utilized to limit the bottleneck from decoding and processing. 
 
 The tested platforms include:
 * MacBook Pro 2015 2.7 GHz Intel Core i5 CPU
